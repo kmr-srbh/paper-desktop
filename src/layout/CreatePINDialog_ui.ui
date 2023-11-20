@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreatePINDialog</class>
+ <widget class="QDialog" name="CreatePINDialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>280</width>
+    <height>280</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>280</width>
+    <height>280</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Paper - Create PIN</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../icons/icons8-origami-100.png</normaloff>../icons/icons8-origami-100.png</iconset>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>220</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="save_button">
+      <property name="focusPolicy">
+       <enum>Qt::ClickFocus</enum>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/icons8-ok-96.png</normaloff>../icons/icons8-ok-96.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="cancel_button">
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../icons/icons8-cancel-96.png</normaloff>../icons/icons8-cancel-96.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="create_pin_line_edit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>130</y>
+     <width>180</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>180</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="maxLength">
+    <number>4</number>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Enter 4-digit PIN</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../drawables/icons8-password-100.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>221</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Create a PIN to secure app. You will need this PIN everytime you start the app.</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

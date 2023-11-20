@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>editClassDialog</class>
+ <widget class="QDialog" name="editClassDialog">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>220</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>330</width>
+    <height>220</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>330</width>
+    <height>220</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Paper - Add or Remove Students</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../icons/icons8-origami-100.png</normaloff>../icons/icons8-origami-100.png</iconset>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>311</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>4</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="editOptions_stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="addStudent_page">
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>8</y>
+          <width>291</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>20</number>
+         </property>
+         <property name="topMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>20</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <property name="spacing">
+            <number>5</number>
+           </property>
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLineEdit" name="name_add_page_line_edit">
+             <property name="minimumSize">
+              <size>
+               <width>60</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>240</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="maxLength">
+              <number>40</number>
+             </property>
+             <property name="placeholderText">
+              <string>Enter student name</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="add_button">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="text">
+              <string>Add</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../icons/icons8-ok-96.png</normaloff>../icons/icons8-ok-96.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="cancel_add_page_button">
+             <property name="text">
+              <string>Cancel</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../icons/icons8-cancel-96.png</normaloff>../icons/icons8-cancel-96.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Provide just the student names and Paper will automatically create a sorted class list for you.</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="removeStudent_page">
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>8</y>
+          <width>291</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>20</number>
+         </property>
+         <property name="topMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>20</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLineEdit" name="roll_number_remove_page_line_edit">
+             <property name="minimumSize">
+              <size>
+               <width>60</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>240</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="maxLength">
+              <number>3</number>
+             </property>
+             <property name="placeholderText">
+              <string>Enter roll number</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="remove_button">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="text">
+              <string>Remove</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../icons/icons8-minus-96.png</normaloff>../icons/icons8-minus-96.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="cancel_remove_page_button">
+             <property name="text">
+              <string>Cancel</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../icons/icons8-cancel-96.png</normaloff>../icons/icons8-cancel-96.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>This action will remove the student from the class. Student roll numbers will change.</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="renameStudent_page">
+       <widget class="QWidget" name="verticalLayoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>291</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>20</number>
+         </property>
+         <property name="topMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>20</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <property name="spacing">
+            <number>10</number>
+           </property>
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QLineEdit" name="roll_number_rename_page_line_edit">
+             <property name="minimumSize">
+              <size>
+               <width>60</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>240</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="maxLength">
+              <number>3</number>
+             </property>
+             <property name="placeholderText">
+              <string>Enter roll number</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="new_name_rename_page_line_edit">
+             <property name="minimumSize">
+              <size>
+               <width>60</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>240</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="maxLength">
+              <number>40</number>
+             </property>
+             <property name="placeholderText">
+              <string>Enter new name</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="rename_student_button">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="text">
+              <string>Rename</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../icons/icons8-ok-96.png</normaloff>../icons/icons8-ok-96.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="cancel_rename_page_button">
+             <property name="text">
+              <string>Cancel</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../icons/icons8-cancel-96.png</normaloff>../icons/icons8-cancel-96.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Action:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="edit_class_combo_box">
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="maxVisibleItems">
+       <number>3</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
