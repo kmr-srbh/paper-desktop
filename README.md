@@ -14,6 +14,9 @@ The software currently relies completely on an independent installation of MySQL
 - Open the software folder in a code editor and edit `main.py`. Here, find the `server.connect(host=localhost, username=root, password=password)` function. Change the function parameters to that of your MySQL Server installation.
 - Save and execute `main.py` from the software directory.
 
+## License
+The software is licensed under the GNU-AGPL version 3.0. You are free to use the software and it's code, but all variants of the software must use the same license.
+
 ### Secure by default
 <img src='https://github.com/kmr-srbh/paper-desktop/assets/151380951/0a94852b-250b-4c27-9d26-31158d59a018' height='50%' width='50%'>
 
