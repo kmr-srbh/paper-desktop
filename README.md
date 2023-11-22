@@ -20,13 +20,13 @@ The software is licensed under the GNU-AGPL version 3.0. You are free to use the
 ### Secure by default
 <img src='https://github.com/kmr-srbh/paper-desktop/assets/151380951/0a94852b-250b-4c27-9d26-31158d59a018' height='50%' width='50%'>
 
-### Class management in a jiffy
+### Class management is easy
 <img src='https://github.com/kmr-srbh/paper-desktop/assets/151380951/27fda5e1-9778-4b1e-bc47-6563bca1bb02' height='50%' width='50%'>
 
 ### Taking attendance is a no time process
 <img src='https://github.com/kmr-srbh/paper-desktop/assets/151380951/e6285de1-79c1-410c-9a38-b9f86417451b' height='50%' width='50%'>
 
-### Attendance for latecomers
+### Make amends for latecomers
 <img src='https://github.com/kmr-srbh/paper-desktop/assets/151380951/f7088267-0960-456c-b490-a25230bbd552' height='50%' width='50%'>
 
 ### Daily attendance reports
@@ -43,3 +43,7 @@ The software is licensed under the GNU-AGPL version 3.0. You are free to use the
 
 ### ...and hard-work
 <img src='https://github.com/kmr-srbh/paper-desktop/assets/151380951/af93b7a3-1831-47f3-9bfd-22ac7a3bf87d' height='50%' width='50%'>
+
+### Paper
+<img src='https://github.com/kmr-srbh/paper-desktop/assets/151380951/280d26bf-e3a1-45fe-ba34-100bd790b051' height='50%' width='50%'>
+
