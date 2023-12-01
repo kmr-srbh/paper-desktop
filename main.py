@@ -49,7 +49,7 @@ except ImportError:
 
 data_server = server.connect(
     host="localhost",
-    username="root",
+    user="root",
     password="password"
 )
 data_server.autocommit = True
